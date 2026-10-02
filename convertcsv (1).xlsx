@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spice Garden Restaurant</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    background:#000;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    color:orange;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200')
+    center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:10px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:orange;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+section{
+    padding:70px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:orange;
+    font-size:40px;
+}
+
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.menu-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.menu-item{
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.menu-item img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.menu-item h3{
+    margin-top:15px;
+}
+
+.price{
+    color:orange;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.review-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.review{
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Spice Garden</div>
+
+    <nav>
+        #aboutAbout</a>
+        #menuMenu</a>
+        #reviewsReviews</a>
+        #contactContact</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+    <h1>Welcome to Spice Garden</h1>
+    <p>Delicious Food • Great Ambience • Best Experience</p>
+    #menuView Menu</a>
+</div>
+
+</section>
+
+<section id="about">
+<h2 class="section-title">About Us</h2>
+
+<div class="about">
+    <p>
+        Spice Garden is a modern restaurant serving fresh,
+        delicious and high-quality food. We combine traditional
+        flavours with modern cooking techniques to create
+        unforgettable dining experiences.
+    </p>
+</div>
+</section>
+
+<section id="menu">
+<h2 class="section-title">Our Menu</h2>
+
+<div class="menu-container">
+
+<div class="menu-item">
+https://images.unsplash.com/photo-1565299624946-b28f40a0ca4e?q=80&w=800
+<h3>Pizza</h3>
+<p>Cheesy and delicious pizza.</p>
+<div class="price">?299</div>
+</div>
+
+<div class="menu-item">
+https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800
+<h3>Burger</h3>
+<p>Fresh and juicy burger.</p>
+<div class="price">?149</div>
+</div>
+
+<div class="menu-item">
+https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=800
+<h3>Pasta</h3>
+<p>Creamy Italian pasta.</p>
+<div class="price">?249</div>
+</div>
+
+</div>
+</section>
+
+<section id="reviews">
+<h2 class="section-title">Customer Reviews</h2>
+
+<div class="review-container">
+
+<div class="review">
+????? <br><br>
+Amazing food and very friendly staff.
+</div>
+
+<div class="review">
+????? <br><br>
+Best restaurant in town. Highly recommended.
+</div>
+
+<div class="review">
+????? <br><br>
+Loved the ambience and quality of food.
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact">
+<p>?? Jodhpur, Rajasthan</p><br>
+<p>?? +91 9876543210</p><br>
+<p>?? info@spicegarden.com</p>
+</div>
+</section>
+
+<footer>
+    Demo Project Created For Portfolio Purpose
+</footer>
+
+</body>
+</html>
